@@ -1,14 +1,16 @@
 # NgxsCrudApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
+this is a simple crud application for creating deleting and updating courses and was created for understanding how state management is done via NGXS.
+
+## Technologies Used
+
+Angular, NGXS (state management), Bootstrap, Spring (REST), Typescript
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+run `java -jar course-1.0.0-SNAPSHOT.jar` to run Spring, please note you will need to have java 8 installed
 
 ## Build
 
@@ -21,7 +23,3 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
